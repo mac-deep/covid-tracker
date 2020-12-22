@@ -10,10 +10,11 @@
 
 .Card {
   margin: 0 2% !important;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .infected {
-  border-bottom: 10px solid rgba(0, 0, 255, 0.8);
+  border-bottom: 10px solid rgba(0, 0, 255, 0.7);
   background: rgba(00, 0, 255, 0.2);
 }
 
@@ -22,11 +23,11 @@
 }
 
 .deaths {
-  border-bottom: 10px solid rgba(255, 0, 0, 0.8);
+  border-bottom: 10px solid rgba(255, 0, 0, 0.7);
 }
 
 .recovered {
-  border-bottom: 10px solid rgba(0, 255, 0, 0.8);
+  border-bottom: 10px solid rgba(0, 255, 0, 0.7);
 }
 
 @media (max-width: 770px) {
